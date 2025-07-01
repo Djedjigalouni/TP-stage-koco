@@ -1,0 +1,50 @@
+
+#traveling{
+    background-image: url('IMAGES/sable.jpg');
+    min-height: 500px; /* Hauteur de la vue */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+body{ 
+    /* donner une autre police au texte de la page */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+
+}
+#cards{
+    /* rendre les cartes de la section opaque de 70% */
+    opacity: 0.7;
+}
+/* h2{color: aqua;} */
+#form{
+    /* mettre une couleur turquoise pour l'arriére plan du formulaire */
+    background-color: rgb(242, 163, 27);
+}
+#button{
+    /* changer la couleur de l'arriére plan des buttons */
+    background-color:rgb(242, 163, 27);
+}
+/* background-color:rgb(79, 161, 208); */
+
+#tour{
+    background-image: url('IMAGES/tours.jpg');
+    height: 400px; /* Hauteur de la vue */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#fly{
+    background-image: url('IMAGES/papier.jpg');
+    height: 400px; /* Hauteur de la vue */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bg-image {
+    background-image: url('IMAGES/avion2.jpg'); /*une image d'arriére plan pour la section presentation*/
+    height: 500px; /* Hauteur de la vue */
+    background-size: cover; /* l'image doit couvrir toute la section*/
+    background-repeat: no-repeat; /* eviter la répétition de l'image*/
+}
+#icon img{
+    width: 30px;
+    height: 30px;
+}

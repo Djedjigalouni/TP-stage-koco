@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip website</title>
+    <!-- utiliser un lien vers le fichier CSS minifié hébergé sur BootstrapCDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Pour les besoins de notre projet, nous allons également ajouter le jeu d'icônes de Font Awesome -->
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <!--Pour utiliser les icônes de Bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class=" border-bottom border-3 border-dark">
+        <nav class="navbar navbar-expand-md navbar-light" >
+            <div class="container">
+                <img src="IMAGES/logocompose.PNG" alt="logo">
+                <!-- button Bascule qui permet de créer une navigation responsive) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ">
+                            <a class="nav-link fw-bold active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#tours">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="d-flex justify-content-center align-items-center" id="bg-image">
+            <div class="jumbotron ">
+                <h1 class="display-4 fw-bold">Enjoy Your Dream Vacation</h1>
+                <h2 class="lead text-center fw-bold ">Travel to the any corner of the world, without going around in circles.</h2>
+                <div class="input-group mt-5">
+                    <input type="search" class="form-control text-center rounded-end rounded-pill bg-warning text-dark" placeholder="Enter Keyword" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn  text-center bg-dark text-white rounded-start rounded-pill" data-mdb-ripple-init>search</button>
+                </div>
+            </div>
+        </section> <!-- section presentation -->
+        <section class="mt-5">
+            <div class="container ">
+                <h2 class="mb-0 text-center">Best Offers</h2>
+                <h4 class=" text-center">Check out our top-rated tours</h4>
+                <div class="row mt-4">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-center border border-dark">
+                            <img src="IMAGES/torkey.jpg" class="card-img-top" style="height:200px" alt="Turkey">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Turkey</h5>
+                                <p class="card-text text-center">Istanbul, Antalya, Ephesus • 8 days…</p>
+                                <a href="#" class="btn btn-warning rounded-pill">VIEW DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-center border border-dark">
+                            <img src="IMAGES/espagne.jpg" class="card-img-top" style="height:200px" alt="Spain">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Spain</h5>
+                                <p class="card-text text-center">Madrid, Andalucia, Barcelona • 9 days…</p>
+                                <a href="#" class="btn btn-warning rounded-pill">VIEW DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-center border border-dark">
+                            <img src="IMAGES/united.jpg" class="card-img-top" style="height:200px" alt="United Kingdom">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">United Kingdom</h5>
+                                <p class="card-text text-center">England, Scotland, Wales • 13 days…</p> 
+                                <a href="#" class="btn btn-warning rounded-pill">VIEW DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-center border border-dark">
+                            <img src="IMAGES/eastern.jpg"  class="card-img-top" style="height:200px" alt="Eastern Europe">
+                            <div class="card-body ">
+                                <h5 class="card-title text-center">Eastern Europe</h5>
+                                <p class="card-text text-center">Slovenia, Hungary, Poland • 10 days…</p>
+                                <a href="#" class="btn btn-warning rounded-pill">VIEW DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center ">
+                        <a  class="btn btn-dark mt-5 rounded-pill pe-5 ps-5 my-5" href="#best offers">VIEW ALL TOURS</a>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- section best offers -->
+        <section class="py-5" id="traveling">
+            <div class="container">
+                <h2 class="text-center">Why <span class="text-warning">Traveling </span>!!</h2>
+                <div class="row my-4">
+                    <div class="col-12 col-md-6 col-lg-4" id="cards">
+                        <div class="card text-center " >
+                            <div class="card-body ">
+                                <img src="IMAGES/hand.jpg" alt="ok" style="height: 50px; width: 50px;">
+                                <h5 class="card-title mt-3">HIGHLY QUALIFIED SERVICE</h5>
+                                <p class="card-text text-center ">Our high level of service is officially recognized by thousands of clients.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6  col-lg-4" id="cards">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="IMAGES/carte.jpg" alt="carte" style="height: 50px; width: 50px">
+                                <h5 class="card-title mt-3">BEST PRICE GUARANTEE</h5>
+                                <p class="card-text text-center">We guarantee you'll get top-notch comfort at an affordable price.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6  col-lg-4" id="cards">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="IMAGES/hotel.jpg" alt="hotel" style="height: 50px; width: 50px">
+                                <h5 class="card-title mt-3">HANDPICKED HOTELS</h5>
+                                <p class="card-text text-center">We pick the hotels with the utmost reputation and positive reviews.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 col-md-6 col-lg-4" id="cards">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="IMAGES/agent.jpg" alt="ok" style="height: 50px; width: 50px;">
+                                <h5 class="card-title mt-3">24/7 SUPPORT</h5>
+                                <p class="card-text text-center">Our travel agents are always there to support you during your trip.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4" id="cards">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="IMAGES/association.jpg" alt="carte" style="height: 50px; width: 50px">
+                                <h5 class="card-title mt-3">PERSONALIZED MATCHING</h5>
+                                <p class="card-text text-center">We can provide up to 3 experienced travel specialists who fit best.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4" id="cards">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="IMAGES/destination.jpg" alt="destination" style="height: 50px; width: 50px">
+                                <h5 class="card-title mt-3">WIDE VARIETY OF DESTINATIONS</h5>
+                                <p class="card-text text-center">With Travellino, you'll find a perfect destination among hundreds available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- section Why traveling -->
+        <section class="py-3">
+            <div class="container pt-4 py-4">
+                <h2 class="mb-0 text-center">Recent Post</h2>
+                <div class="row mt-4">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card text-center border border-dark">
+                            <img src="IMAGES/Johanessburg.jpg" class="card-img-top"  style="height:200px" alt="Johanessburg">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Traveling to Johanessburg</h5>
+                                <span>Posted by : </span>
+                                <span class="text-warning ">admin</span>
+                                <span class="ms-3 ">On : </span>
+                                <span class="text-warning ">08.07.2023</span>
+                                <p class="card-text text-center">In a way, Dubai reminded me of most expat-heavy places in the world. It seems…</p>
+                                <a  class="btn btn-warning rounded-pill" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card text-center border border-dark">
+                            <img src="IMAGES/montagnes.jpg" class="card-img-top" style="height:200px"  alt="montagne">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Planning a Trip</h5>
+                                <span>Posted by : </span>
+                                <span class="text-warning ">admin</span>
+                                <span class="ms-3 ">On : </span>
+                                <span class="text-warning ">08.13.2023</span>
+                                <p class="card-text text-center">When you need your company to have a new website or if you venture on updating your…</p>
+                                <a  class="btn btn-warning rounded-pill" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card text-center border border-dark">
+                            <img src="IMAGES/dubai.jpg" class="card-img-top" style="height:200px" alt="dubai">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Dubai: The Las Vegas of the Middle East?</h5>
+                                <span>Posted by : </span>
+                                <span class="text-warning ">admin</span>
+                                <span class="ms-3 ">On : </span>
+                                <span class="text-warning ">08.09.2023</span>
+                                <p class="card-text text-center">It's a city that conjures up images of Vegas...</p>
+                                <a  class="btn btn-warning rounded-pill" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- section Recent Post -->
+        <section>
+            <div class="container ">
+                <h2 class="mb-0 text-center">We are always ready to help you :)</h2>
+                <div class="col-12 d-flex  border border-3 mt-4 bg-warning">
+                    <form action="POST" class="row gy-4 m-3 justify-content-center align-items-center">
+                            <div class="col-5 text-center">
+                                <label for="prenom" class="form-label">Your first name *</label>
+                            <input type="text" class="form-control" name="prenom" id="prenom">
+                            </div>
+                            <div class="col-5 text-center">
+                                <label for="nom" class="form-label">Your last name</label>
+                                <input type="text" class="form-control" name="nom" id="nom">
+                            </div> 
+                            <div class="col-5 text-center">
+                                <label for="number" class="form-label">Your phone number</label>
+                                <input type="text" class="form-control" name="number" id="number">
+                            </div>
+                            <div class="col-5 text-center">
+                                <label for="email" class="form-label">Your e-mail *</label>
+                                <input type="text" class="form-control" name="email" id="email">
+                            </div>
+                            <div class="col-10 text-center">
+                                <label for="message" class="form-label">Your message *</label>
+                                <textarea name="message" id="message" class="form-control"  rows="3"></textarea>
+                            </div>
+                            <div class="col-3 text-center my-4">
+                                <button type="submit" class="btn btn-secondary text-dark rounded-pill  w-100 bg-white">Send message</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </section><!-- section formulaire de contact -->
+    </main>
+    <footer class=" border-3 border-dark border-top mt-5 ">
+    <div class="container py-3">
+        <div class="row gy-4 justify-content-center">
+            <div class="col-12 col-md-4 text-center">
+                <h5 class=" text-warning fw-bold">Traveling</h5> 
+                <p>Since 2020, we have been offering travel services of the highest quality, combining our energy and enthusiasm.</p>
+                <p class="fw-bold">&copy Traveling-2020</p>
+                
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <h5 class="text-warning fw-bold">Contact information</h5> 
+                <p>75 Rue De Paris,France</p>
+                <p>info@traveling.org</p>
+                <p>07 56 34 78 21</p>
+
+            </div>
+            <div class="col-12 col-md-4 text-md-center" id="icon">
+                <span class="fw-bold text-warning">Follow us</span>
+                    <ul class="list-inline mt-3 ">
+                        <li class="list-inline-item me-4">
+                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
+                            <img src="IMAGES/linkedin.svg" alt="linkedin"></a>
+                        </li>
+                        <li class="list-inline-item me-4">
+                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram">
+                            <img src="IMAGES/instagram.svg" alt="instagram"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+                            <img src="IMAGES/twitter.svg" alt="twitter"></a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- Certains composants de Bootstrap utilisent JavaScript (JS), en particulier la bibliothèque Popper.js, ainsi que la bibliothèque JavaScript de Bootstrap. Pour vous assurer que tout fonctionne comme prévu, vous allez utiliser la version bundle pour importer la bibliothèque -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>                       

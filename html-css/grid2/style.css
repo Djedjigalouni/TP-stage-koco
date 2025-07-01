@@ -1,0 +1,134 @@
+.grid{
+display: grid;
+grid-template-columns: 30% 70%;
+border: 2px rgb(21, 21, 22) solid;
+padding: 20px;
+gap: 20px;
+width: 800px;
+height: 600px;
+margin: auto;
+background-color: hsl(180, 79%, 85%);
+}
+.grid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px rgb(7, 7, 7) solid;
+    text-align: center;
+    background-image:linear-gradient(to right,orange ,aqua, yellow );
+
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(5,2fr);
+    gap: 20px;
+    background-color: blanchedalmond;
+    border: 2px rgb(7, 7, 7) solid;
+    margin-right: 20px;
+
+}
+.a{
+    grid-row-start:1 ;
+    grid-column-start: 1;
+    background-image: url(https://i.pinimg.com/736x/46/db/64/46db645d2cacbe2c89a13d404af32124.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.b{
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    background-image: url(https://i.pinimg.com/736x/34/55/59/345559c8cf1fec4434cf42d952fabd61.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.c{
+    grid-row-start:1 ;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url(https://i.pinimg.com/236x/ad/7d/86/ad7d86affc2faad783b33ab5364f7acf.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d{
+    grid-row-start:2 ;
+    grid-column-start: 1;
+    background-image: url(https://i.pinimg.com/736x/46/dc/9d/46dc9dc8144d024664e99c416b7a9f1b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.e{
+    grid-row-start:2 ;
+    grid-column-start: 3;
+    background-image: url(https://i.pinimg.com/736x/cf/1c/44/cf1c44eb2d465d2d438d4c051c971d4b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.f{
+    grid-row-start:2 ;
+    grid-column-start: 4;
+    grid-row-end: 4;
+    background-image: url(https://i.pinimg.com/736x/f3/34/3d/f3343d2839d90f614c3eaf8dbc662c31.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.g{
+    grid-row-start:3 ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(https://i.pinimg.com/736x/40/7b/c8/407bc80b0278170962d7ea89f8ccaece.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.h{
+    grid-row-start:3 ;
+    grid-column-start: 3;
+    background-image: url(https://i.pinimg.com/736x/34/7d/47/347d4712f14d84773555d43df0732460.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.i{
+    grid-row-start:4 ;
+    grid-column-start: 1;
+    background-image: url(https://i.pinimg.com/736x/a6/2e/a6/a62ea692b8a7c78a47f9916ffd1a0c16.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.j{
+    grid-row-start:4 ;
+    grid-column-start: 2;
+    background-image: url(https://i.pinimg.com/736x/0b/a1/37/0ba137a5f292cc65f5e7af51c15d313d.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.k{
+    grid-row-start:4 ;
+    grid-column-start: 3;
+    background-image: url(https://i.pinimg.com/736x/a7/db/cf/a7dbcf68dd149df8fe4fad4eb1ff3e84.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.l{
+    grid-row-start:4 ;
+    grid-column-start: 4;
+    grid-row-end: 6;
+    background-image: url(https://i.pinimg.com/736x/50/16/ff/5016fffef0f2c7fde6c1c5cd614d6fc0.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.m{
+    grid-row-start:5 ;
+    grid-column-start: 1;
+    background-image: url(https://i.pinimg.com/736x/8a/e2/f8/8ae2f8eac046e55a6e5a2afcb704c4e0.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.n{
+    grid-row-start:5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: url(https://i.pinimg.com/736x/b1/f4/bb/b1f4bbf106fe40f73ba23681702d1593.jpg);
+    background-position: center;
+    background-size: cover;
+}

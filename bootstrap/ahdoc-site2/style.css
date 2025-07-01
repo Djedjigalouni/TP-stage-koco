@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: inherit;
+}
+#jumbotron{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png);
+    background-size: cover; 
+}
+#text{
+    border-bottom: 2px lightgray solid;
+}
+#p{
+    /* font-weight: lighter; */
+    font-size: 24px;
+}
+footer p{
+    font-size: 24px;
+}

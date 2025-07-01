@@ -1,0 +1,27 @@
+.container {
+      display: grid;
+      width: 800px;
+      height: 800px;
+      grid-template-columns: 1fr 2fr 0.5fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 10px;
+      background: black;
+      padding: 10px;
+    }
+
+    .Zone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+      color: #000;
+    }
+
+    .A { background-color: #f9f5dc; grid-column: 1; grid-row: 1; }
+    .B { background-color: #c4ff3a; grid-column: 1; grid-row: 2; }
+    .C { background-color: #00faff; grid-column: 2 / span 2; grid-row: 1 / span 2; }
+    .D { background-color: #a2ffe5; grid-column: 1; grid-row: 3; }
+    .E { background-color: white; grid-column: 2; grid-row: 3; }
+    .F { background-color: #8c2dfc; grid-column: 3; grid-row: 3; height: 50%; }
+    .G { background-color: white; grid-column: 3; grid-row: 3; align-self: end; height: 50%; }
